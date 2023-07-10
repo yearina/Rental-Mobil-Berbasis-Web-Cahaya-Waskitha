@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap");
+:root {
+  --d: 700ms;
+  --e: cubic-bezier(0.19, 1, 0.22, 1);
+  --font-sans: "Rubik", sans-serif;
+  --font-serif: "Cardo", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+label {
+  font-weight: 600;
+}
+
+.login-text {
+  color: #0d47a1;
+}
+.login-image {
+  background-color: rgb(114, 250, 189);
+}
+.image {
+  background-color: #0d47a1;
+}
+/* CSS */
+.btn-login {
+  appearance: none;
+  background-color: #0d47a1;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 20px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 8px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.btn-login:active {
+  background-color: #073375;
+  box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
+}
+.login-box {
+  margin-top: 15%;
+  height: 100%;
+}
+.img-login {
+  margin-top: 20px;
+}
+.register {
+  background-color: green;
+}

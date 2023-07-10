@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+.logo {
+  width: 78px;
+  height: 35px;
+  background-image: url(../image/logo.png);
+  background-size: cover;
+  margin-top: 13px;
+}
+
+.fColor-navbar {
+  color: rgb(182, 176, 176) !important;
+}
+
+.fColor-navbar:hover {
+  color: white !important;
+}
+
+.waLogo {
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.waLogo:hover {
+  color: rgb(87, 215, 62);
+}
+
+.parallax-container {
+  height: 300px;
+}
+
+.text {
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-1 {
+  font-family: "Dancing Script" !important;
+  color: brown;
+}
+
+.text-2 {
+  font-size: 20px;
+}
+
+.text-3 {
+  font-size: 10px;
+  font-style: italic;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+p {
+  font-weight: 100;
+  font-style: italic;
+}
+
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: 50px;
+  background-color: white;
+  padding: 30px;
+}
+
+.info-panel img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.info-panel h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.info-panel p {
+  font-size: 14px;
+  color: #acacac;
+  margin-top: -5px;
+  font-weight: 200px;
+}
+
+.contact {
+  margin-top: 70px;
+}
+.contact h4 {
+  font-size: 20px;
+}
+.contact .icon {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  font-size: 30px;
+  transition: transform 0.2s linear;
+}
+.contact .icon a {
+  color: #0d0d0d;
+}
+.contact .icon .icon-1 {
+  transition: transform 0.2s linear;
+}
+.contact .icon .icon-2 {
+  transition: transform 0.2s linear;
+}
+.contact .icon .icon-3 {
+  transition: transform 0.2s linear;
+}
+.contact .icon .icon-4 {
+  transition: transform 0.2s linear;
+}
+.contact .icon .icon-1:hover {
+  transform: scale(1.2);
+}
+.contact .icon .icon-2:hover {
+  transform: scale(1.2);
+}
+.contact .icon .icon-3:hover {
+  transform: scale(1.2);
+}
+.contact .icon .icon-4:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  background-color: #0d47a1;
+  height: 40px;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  color: white;
+}/*# sourceMappingURL=style3.css.map */
